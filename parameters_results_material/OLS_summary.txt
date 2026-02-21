@@ -1,0 +1,68 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              objective   R-squared:                       0.847
+Model:                            OLS   Adj. R-squared:                  0.845
+Method:                 Least Squares   F-statistic:                     407.8
+Date:                Tue, 17 Feb 2026   Prob (F-statistic):               0.00
+Time:                        18:47:49   Log-Likelihood:                -15127.
+No. Observations:                3132   AIC:                         3.034e+04
+Df Residuals:                    3089   BIC:                         3.060e+04
+Df Model:                          42                                         
+Covariance Type:            nonrobust                                         
+==============================================================================================
+                                 coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------------
+const                        630.2913     24.388     25.844      0.000     582.473     678.110
+speedFactor                 -552.7428      7.020    -78.739      0.000    -566.507    -538.979
+speedDev                    1042.1878     15.506     67.212      0.000    1011.785    1072.591
+minGap                        36.1708      2.779     13.015      0.000      30.722      41.620
+accel                        -16.6860      1.295    -12.880      0.000     -19.226     -14.146
+decel                          2.2312      1.595      1.399      0.162      -0.897       5.359
+startupDelay                   0.5454      1.240      0.440      0.660      -1.887       2.978
+sigma                         59.7337     12.038      4.962      0.000      36.130      83.337
+tau                          304.2209      4.629     65.727      0.000     295.146     313.296
+lcStrategic                   -0.3506      0.063     -5.570      0.000      -0.474      -0.227
+lcCooperative                  4.1914      5.757      0.728      0.467      -7.096      15.479
+lcSpeedGain                   -0.0896      0.063     -1.423      0.155      -0.213       0.034
+lcKeepRight                   -0.0310      0.063     -0.492      0.623      -0.154       0.092
+lcContRight                    3.8498      6.202      0.621      0.535      -8.311      16.011
+lcOvertakeRight               -0.0344      0.062     -0.554      0.580      -0.156       0.087
+lcStrategicLookahead       -1.019e-13      0.003  -3.38e-11      1.000      -0.006       0.006
+lcLookaheadLeft               -1.9845      0.852     -2.329      0.020      -3.655      -0.314
+lcSpeedGainRight              -0.7370      0.629     -1.171      0.242      -1.971       0.497
+lcSpeedGainLookahead          -0.4989      1.204     -0.414      0.679      -2.859       1.861
+lcSpeedGainRemainTime          0.0607      0.301      0.202      0.840      -0.529       0.651
+lcOvertakeDeltaSpeedFactor     4.1666      6.019      0.692      0.489      -7.635      15.968
+lcKeepRightAcceptanceTime     -0.0937      0.150     -0.627      0.531      -0.387       0.199
+lcCooperativeSpeed           -14.8518      6.202     -2.395      0.017     -27.013      -2.691
+minGapLat                    -12.4345      3.600     -3.454      0.001     -19.494      -5.375
+lcSublane                     -0.3149      0.723     -0.435      0.663      -1.733       1.103
+lcPushy                     -137.6515      6.202    -22.193      0.000    -149.813    -125.490
+lcPushyGap                     6.4163     10.337      0.621      0.535     -13.852      26.685
+lcAssertive                  -11.9058      0.723    -16.462      0.000     -13.324     -10.488
+lcImpatience                 -38.8297      3.101    -12.521      0.000     -44.910     -32.749
+lcTurnAlignmentDistance       -0.3402      0.620     -0.549      0.583      -1.556       0.876
+lcLaneDiscipline              -0.4260      0.620     -0.687      0.492      -1.642       0.790
+lcSigma                       -8.8887      0.620    -14.331      0.000     -10.105      -7.673
+jmIgnoreKeepClearTime         -0.3661      0.539     -0.679      0.497      -1.423       0.691
+jmDriveAfterRedTime            5.2160      0.539      9.674      0.000       4.159       6.273
+jmDriveAfterYellowTime         2.4084      0.539      4.467      0.000       1.351       3.466
+jmIgnoreFoeProb               -3.8498      6.202     -0.621      0.535     -16.011       8.311
+jmIgnoreJunctionFoeProb       -1.0226      6.202     -0.165      0.869     -13.184      11.139
+jmSigmaMinor                   0.0157     12.038      0.001      0.999     -23.588      23.619
+jmStoplineGap                 -1.5401      1.704     -0.904      0.366      -4.882       1.802
+jmTimegapMinor                -1.0198      1.551     -0.658      0.511      -4.060       2.021
+jmExtraGap                    -1.2166      1.240     -0.981      0.327      -3.649       1.216
+jmStopSignWait                -0.9625      1.551     -0.621      0.535      -4.003       2.078
+impatience                    -3.0285      6.202     -0.488      0.625     -15.190       9.133
+==============================================================================
+Omnibus:                     4826.095   Durbin-Watson:                   0.233
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          2912861.136
+Skew:                           9.488   Prob(JB):                         0.00
+Kurtosis:                     151.191   Cond. No.                     1.39e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.39e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
