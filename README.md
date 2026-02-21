@@ -31,16 +31,6 @@ The proposed calibration framework:
 - Evaluates discrepancies using a normalized percentage-based metric (nABC)  
 - Optimizes simulation parameters using derivative-free optimization  
 
-The normalized discrepancy metric is defined as:
-
-\[
-\mathrm{nABC}_{p,d}
-=
-\frac{100}{N_{p,d}} \Delta_{p,d}
-\]
-
-where \( \Delta_{p,d} \) represents the cumulative absolute deviation between observed and simulated cumulative count curves for each phase-direction pair.
-
 ---
 
 ## 📂 Repository Structure
