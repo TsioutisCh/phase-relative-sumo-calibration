@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-07-09 18:04:17 by Eclipse SUMO sumo Version 1.23.1
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="Info_Cycle_4\../osm.net.xml"/>
+        <route-files value="Info_Cycle_4\routes.rou.xml"/>
+        <additional-files value="Info_Cycle_4\osm.add.xml,Info_Cycle_4\../osm.type.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="Info_Cycle_4\tripinfo.xml"/>
+    </output>
+
+    <time>
+        <begin value="0.0"/>
+        <end value="90.0"/>
+        <step-length value="0.1"/>
+    </time>
+
+    <processing>
+        <lateral-resolution value="1.0"/>
+        <time-to-teleport value="-1"/>
+        <eager-insert value="true"/>
+    </processing>
+
+    <report>
+        <verbose value="true"/>
+        <no-warnings value="False"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <gui_only>
+        <gui-settings-file value="Info_Cycle_4\../osm.view.xml"/>
+        <start value="True"/>
+    </gui_only>
+
+</sumoConfiguration>
+-->
+
+<instantE1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/instant_e1_file.xsd">
+    <instantOut id="d3_0" time="1.61" state="enter" vehID="913" speed="7.03" length="2.20" type="Motorcycle"/>
+    <instantOut id="d3_0" time="1.70" state="stay" vehID="913" speed="7.03" length="2.20" type="Motorcycle"/>
+    <instantOut id="d3_0" time="1.80" state="stay" vehID="913" speed="7.22" length="2.20" type="Motorcycle"/>
+    <instantOut id="d3_0" time="1.90" state="stay" vehID="913" speed="7.51" length="2.20" type="Motorcycle"/>
+    <instantOut id="d3_0" time="1.91" state="leave" vehID="913" speed="7.60" length="2.20" type="Motorcycle" occupancy="0.30"/>
+    <instantOut id="d3_0" time="4.05" state="enter" vehID="989" speed="16.18" length="2.20" type="Motorcycle" gap="2.14"/>
+    <instantOut id="d3_0" time="4.10" state="stay" vehID="989" speed="16.18" length="2.20" type="Motorcycle"/>
+    <instantOut id="d3_0" time="4.19" state="leave" vehID="989" speed="16.42" length="2.20" type="Motorcycle" occupancy="0.13"/>
+    <instantOut id="d3_0" time="8.12" state="enter" vehID="980" speed="23.44" length="2.20" type="Motorcycle" gap="3.93"/>
+    <instantOut id="d3_0" time="8.20" state="stay" vehID="980" speed="23.44" length="2.20" type="Motorcycle"/>
+    <instantOut id="d3_0" time="8.21" state="leave" vehID="980" speed="23.86" length="2.20" type="Motorcycle" occupancy="0.09"/>
+    <instantOut id="d3_0" time="8.44" state="enter" vehID="977" speed="21.77" length="5.00" type="Car" gap="0.23"/>
+    <instantOut id="d3_0" time="8.50" state="stay" vehID="977" speed="21.77" length="5.00" type="Car"/>
+    <instantOut id="d3_0" time="8.60" state="stay" vehID="977" speed="21.80" length="5.00" type="Car"/>
+    <instantOut id="d3_0" time="8.67" state="leave" vehID="977" speed="21.66" length="5.00" type="Car" occupancy="0.23"/>
+    <instantOut id="d3_0" time="13.32" state="enter" vehID="1028" speed="25.39" length="2.20" type="Motorcycle" gap="4.65"/>
+    <instantOut id="d3_0" time="13.40" state="stay" vehID="1028" speed="25.39" length="2.20" type="Motorcycle"/>
+    <instantOut id="d3_0" time="13.41" state="leave" vehID="1028" speed="25.60" length="2.20" type="Motorcycle" occupancy="0.09"/>
+    <instantOut id="d3_0" time="15.59" state="enter" vehID="946" speed="24.78" length="5.00" type="Car" gap="2.18"/>
+    <instantOut id="d3_0" time="15.60" state="stay" vehID="946" speed="24.78" length="5.00" type="Car"/>
+    <instantOut id="d3_0" time="15.70" state="stay" vehID="946" speed="25.11" length="5.00" type="Car"/>
+    <instantOut id="d3_0" time="15.79" state="leave" vehID="946" speed="25.37" length="5.00" type="Car" occupancy="0.20"/>
+    <instantOut id="d3_0" time="17.97" state="enter" vehID="1041" speed="25.66" length="5.00" type="Car" gap="2.18"/>
+    <instantOut id="d3_0" time="18.00" state="stay" vehID="1041" speed="25.66" length="5.00" type="Car"/>
+    <instantOut id="d3_0" time="18.10" state="stay" vehID="1041" speed="25.90" length="5.00" type="Car"/>
+    <instantOut id="d3_0" time="18.16" state="leave" vehID="1041" speed="26.19" length="5.00" type="Car" occupancy="0.19"/>
+    <instantOut id="d3_0" time="22.61" state="enter" vehID="1085" speed="25.02" length="2.20" type="Motorcycle" gap="4.44"/>
+    <instantOut id="d3_0" time="22.70" state="leave" vehID="1085" speed="25.02" length="2.20" type="Motorcycle" occupancy="0.09"/>
+    <instantOut id="d3_0" time="24.42" state="enter" vehID="1087" speed="24.30" length="2.20" type="Motorcycle" gap="1.73"/>
+    <instantOut id="d3_0" time="24.50" state="stay" vehID="1087" speed="24.30" length="2.20" type="Motorcycle"/>
+    <instantOut id="d3_0" time="24.51" state="leave" vehID="1087" speed="24.50" length="2.20" type="Motorcycle" occupancy="0.09"/>
+    <instantOut id="d3_0" time="26.05" state="enter" vehID="1097" speed="25.74" length="2.20" type="Motorcycle" gap="1.54"/>
+    <instantOut id="d3_0" time="26.10" state="stay" vehID="1097" speed="25.74" length="2.20" type="Motorcycle"/>
+    <instantOut id="d3_0" time="26.14" state="leave" vehID="1097" speed="25.66" length="2.20" type="Motorcycle" occupancy="0.09"/>
+    <instantOut id="d3_0" time="27.74" state="enter" vehID="1064" speed="25.21" length="2.20" type="Motorcycle" gap="1.60"/>
+    <instantOut id="d3_0" time="27.80" state="stay" vehID="1064" speed="25.21" length="2.20" type="Motorcycle"/>
+    <instantOut id="d3_0" time="27.82" state="leave" vehID="1064" speed="25.28" length="2.20" type="Motorcycle" occupancy="0.09"/>
+    <instantOut id="d3_0" time="29.24" state="enter" vehID="1071" speed="24.49" length="2.20" type="Motorcycle" gap="1.42"/>
+    <instantOut id="d3_0" time="29.30" state="stay" vehID="1071" speed="24.49" length="2.20" type="Motorcycle"/>
+    <instantOut id="d3_0" time="29.33" state="leave" vehID="1071" speed="24.73" length="2.20" type="Motorcycle" occupancy="0.09"/>
+    <instantOut id="d3_0" time="30.87" state="enter" vehID="1147" speed="25.63" length="2.20" type="Motorcycle" gap="1.54"/>
+    <instantOut id="d3_0" time="30.90" state="stay" vehID="1147" speed="25.63" length="2.20" type="Motorcycle"/>
+    <instantOut id="d3_0" time="30.96" state="leave" vehID="1147" speed="25.67" length="2.20" type="Motorcycle" occupancy="0.09"/>
+    <instantOut id="d3_0" time="33.21" state="enter" vehID="1131" speed="25.01" length="5.00" type="Car" gap="2.25"/>
+    <instantOut id="d3_0" time="33.30" state="stay" vehID="1131" speed="25.01" length="5.00" type="Car"/>
+    <instantOut id="d3_0" time="33.40" state="stay" vehID="1131" speed="24.95" length="5.00" type="Car"/>
+    <instantOut id="d3_0" time="33.41" state="leave" vehID="1131" speed="25.04" length="5.00" type="Car" occupancy="0.20"/>
+    <instantOut id="d3_0" time="35.80" state="enter" vehID="1117" speed="24.12" length="5.00" type="Car" gap="2.39"/>
+    <instantOut id="d3_0" time="35.90" state="stay" vehID="1117" speed="24.12" length="5.00" type="Car"/>
+    <instantOut id="d3_0" time="36.00" state="stay" vehID="1117" speed="24.13" length="5.00" type="Car"/>
+    <instantOut id="d3_0" time="36.01" state="leave" vehID="1117" speed="24.02" length="5.00" type="Car" occupancy="0.21"/>
+    <instantOut id="d3_0" time="38.48" state="enter" vehID="1143" speed="24.84" length="5.00" type="Car" gap="2.47"/>
+    <instantOut id="d3_0" time="38.50" state="stay" vehID="1143" speed="24.84" length="5.00" type="Car"/>
+    <instantOut id="d3_0" time="38.60" state="stay" vehID="1143" speed="25.19" length="5.00" type="Car"/>
+    <instantOut id="d3_0" time="38.68" state="leave" vehID="1143" speed="25.43" length="5.00" type="Car" occupancy="0.20"/>
+    <instantOut id="d3_0" time="41.04" state="enter" vehID="1162" speed="24.25" length="5.00" type="Car" gap="2.36"/>
+    <instantOut id="d3_0" time="41.10" state="stay" vehID="1162" speed="24.25" length="5.00" type="Car"/>
+    <instantOut id="d3_0" time="41.20" state="stay" vehID="1162" speed="24.27" length="5.00" type="Car"/>
+    <instantOut id="d3_0" time="41.24" state="leave" vehID="1162" speed="24.25" length="5.00" type="Car" occupancy="0.21"/>
+    <instantOut id="d3_0" time="44.64" state="enter" vehID="1185" speed="23.72" length="5.00" type="Car" gap="3.39"/>
+    <instantOut id="d3_0" time="44.70" state="stay" vehID="1185" speed="23.72" length="5.00" type="Car"/>
+    <instantOut id="d3_0" time="44.80" state="stay" vehID="1185" speed="23.71" length="5.00" type="Car"/>
+    <instantOut id="d3_0" time="44.85" state="leave" vehID="1185" speed="23.84" length="5.00" type="Car" occupancy="0.21"/>
+    <instantOut id="d3_0" time="49.67" state="enter" vehID="1167" speed="25.98" length="2.20" type="Motorcycle" gap="4.83"/>
+    <instantOut id="d3_0" time="49.70" state="stay" vehID="1167" speed="25.98" length="2.20" type="Motorcycle"/>
+    <instantOut id="d3_0" time="49.76" state="leave" vehID="1167" speed="25.88" length="2.20" type="Motorcycle" occupancy="0.08"/>
+    <instantOut id="d3_0" time="52.05" state="enter" vehID="1196" speed="25.20" length="5.00" type="Car" gap="2.29"/>
+    <instantOut id="d3_0" time="52.10" state="stay" vehID="1196" speed="25.20" length="5.00" type="Car"/>
+    <instantOut id="d3_0" time="52.20" state="stay" vehID="1196" speed="25.54" length="5.00" type="Car"/>
+    <instantOut id="d3_0" time="52.25" state="leave" vehID="1196" speed="25.90" length="5.00" type="Car" occupancy="0.20"/>
+    <instantOut id="d3_0" time="57.12" state="enter" vehID="1180" speed="26.82" length="2.20" type="Motorcycle" gap="4.87"/>
+    <instantOut id="d3_0" time="57.20" state="leave" vehID="1180" speed="26.82" length="2.20" type="Motorcycle" occupancy="0.08"/>
+    <instantOut id="d3_0" time="58.59" state="enter" vehID="1201" speed="25.17" length="2.20" type="Motorcycle" gap="1.39"/>
+    <instantOut id="d3_0" time="58.60" state="stay" vehID="1201" speed="25.17" length="2.20" type="Motorcycle"/>
+    <instantOut id="d3_0" time="58.68" state="leave" vehID="1201" speed="25.63" length="2.20" type="Motorcycle" occupancy="0.09"/>
+    <instantOut id="d3_0" time="60.14" state="enter" vehID="1215" speed="25.07" length="2.20" type="Motorcycle" gap="1.46"/>
+    <instantOut id="d3_0" time="60.20" state="stay" vehID="1215" speed="25.07" length="2.20" type="Motorcycle"/>
+    <instantOut id="d3_0" time="60.22" state="leave" vehID="1215" speed="24.93" length="2.20" type="Motorcycle" occupancy="0.09"/>
+    <instantOut id="d3_0" time="61.68" state="enter" vehID="1210" speed="23.50" length="2.20" type="Motorcycle" gap="1.46"/>
+    <instantOut id="d3_0" time="61.70" state="stay" vehID="1210" speed="23.50" length="2.20" type="Motorcycle"/>
+    <instantOut id="d3_0" time="61.77" state="leave" vehID="1210" speed="23.73" length="2.20" type="Motorcycle" occupancy="0.09"/>
+    <instantOut id="d3_0" time="67.62" state="enter" vehID="1142" speed="16.87" length="2.20" type="Motorcycle" gap="5.85"/>
+    <instantOut id="d3_0" time="67.70" state="stay" vehID="1142" speed="16.87" length="2.20" type="Motorcycle"/>
+    <instantOut id="d3_0" time="67.75" state="leave" vehID="1142" speed="17.19" length="2.20" type="Motorcycle" occupancy="0.13"/>
+    <instantOut id="d3_0" time="80.07" state="enter" vehID="1236" speed="17.25" length="2.20" type="Motorcycle" gap="12.32"/>
+    <instantOut id="d3_0" time="80.10" state="stay" vehID="1236" speed="17.25" length="2.20" type="Motorcycle"/>
+    <instantOut id="d3_0" time="80.20" state="leave" vehID="1236" speed="17.58" length="2.20" type="Motorcycle" occupancy="0.13"/>
+</instantE1>

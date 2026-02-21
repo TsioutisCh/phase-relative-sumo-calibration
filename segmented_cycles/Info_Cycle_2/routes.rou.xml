@@ -1,0 +1,441 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<routes>
+    <vehicle id="301" depart="0.0" departLane="0" arrivalLane="4" departSpeed="5.916666666666667" departPos="57.9" type="Car">
+        <route edges="23183808#2 207979569#0" />
+    </vehicle>
+    <vehicle id="323" depart="0.0" departLane="1" arrivalLane="1" departSpeed="2.055555555555556" departPos="29.6" type="Bus">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="337" depart="0.0" departLane="1" arrivalLane="1" departSpeed="0.3333333333333333" departPos="14.8" type="Bus">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="348" depart="0.0" departLane="3" arrivalLane="3" departSpeed="8.472222222222223" departPos="5.5" type="Car">
+        <route edges="207979569#0" />
+    </vehicle>
+    <vehicle id="350" depart="0.0" departLane="2" arrivalLane="2" departSpeed="2.5" departPos="27.1" type="Bus">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="364" depart="0.0" departLane="0" arrivalLane="0" departSpeed="3.861111111111111" departPos="2.0" type="Car">
+        <route edges="207979566#1" />
+    </vehicle>
+    <vehicle id="366" depart="0.0" departLane="3" arrivalLane="3" departSpeed="6.000000000000001" departPos="29.9" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="372" depart="0.0" departLane="3" arrivalLane="3" departSpeed="4.027777777777778" departPos="17.2" type="Taxi">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="373" depart="0.0" departLane="0" arrivalLane="0" departSpeed="3.7222222222222223" departPos="27.9" type="Car">
+        <route edges="23182965#0.13 207979566#1" />
+    </vehicle>
+    <vehicle id="376" depart="0.0" departLane="2" arrivalLane="1" departSpeed="8.416666666666668" departPos="0.0" type="Motorcycle">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="87" depart="0.0" departLane="1" arrivalLane="0" departSpeed="0.4722222222222222" departPos="29.0" type="Taxi">
+        <route edges="207979566#1" />
+    </vehicle>
+    <vehicle id="100" depart="0.0" departLane="0" arrivalLane="0" departSpeed="4.944444444444445" departPos="55.5" type="Taxi">
+        <route edges="207979566#1" />
+    </vehicle>
+    <vehicle id="156" depart="0.0" departLane="0" arrivalLane="0" departSpeed="4.833333333333333" departPos="45.6" type="Medium">
+        <route edges="207979566#1" />
+    </vehicle>
+    <vehicle id="287" depart="0.0" departLane="0" arrivalLane="0" departSpeed="4.777777777777778" departPos="20.2" type="Car">
+        <route edges="23183808#2 207979566#1" />
+    </vehicle>
+    <vehicle id="351" depart="0.0" departLane="0" arrivalLane="0" departSpeed="4.611111111111112" departPos="29.3" type="Motorcycle">
+        <route edges="207979566#1" />
+    </vehicle>
+    <vehicle id="369" depart="0.0" departLane="1" arrivalLane="0" departSpeed="3.75" departPos="10.1" type="Car">
+        <route edges="23183808#2 207979566#1" />
+    </vehicle>
+    <vehicle id="395" depart="0.0" departLane="0" arrivalLane="0" departSpeed="4.722222222222222" departPos="34.4" type="Car">
+        <route edges="207979566#1" />
+    </vehicle>
+    <vehicle id="381" depart="0.2" departLane="4" arrivalLane="4" departSpeed="8.944444444444446" departPos="0.0" type="Motorcycle">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="319" depart="0.6" departLane="3" arrivalLane="3" departSpeed="7.472222222222222" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="310" depart="1.4" departLane="1" arrivalLane="0" departSpeed="5.166666666666667" departPos="0.0" type="Taxi">
+        <route edges="23183808#2 207979566#1" />
+    </vehicle>
+    <vehicle id="353" depart="1.8" departLane="2" arrivalLane="2" departSpeed="8.666666666666666" departPos="0.0" type="Taxi">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="421" depart="2.2" departLane="4" arrivalLane="4" departSpeed="10.0" departPos="0.0" type="Motorcycle">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="418" depart="2.8" departLane="2" arrivalLane="2" departSpeed="7.5" departPos="0.0" type="Motorcycle">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="380" depart="3.2" departLane="3" arrivalLane="3" departSpeed="8.972222222222221" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="427" depart="4.2" departLane="4" arrivalLane="4" departSpeed="12.944444444444445" departPos="0.0" type="Taxi">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="423" depart="4.4" departLane="2" arrivalLane="3" departSpeed="8.86111111111111" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="455" depart="5.0" departLane="4" arrivalLane="4" departSpeed="17.25" departPos="0.0" type="Motorcycle">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="452" depart="5.4" departLane="2" arrivalLane="2" departSpeed="13.555555555555555" departPos="0.0" type="Motorcycle">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="331" depart="5.8" departLane="3" arrivalLane="3" departSpeed="8.722222222222221" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="433" depart="6.2" departLane="4" arrivalLane="4" departSpeed="12.444444444444445" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="326" depart="6.8" departLane="0" arrivalLane="0" departSpeed="5.111111111111111" departPos="0.0" type="Medium">
+        <route edges="23183808#2 207979569#0" />
+    </vehicle>
+    <vehicle id="357" depart="8.0" departLane="1" arrivalLane="1" departSpeed="6.194444444444445" departPos="0.0" type="Heavy">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="445" depart="8.2" departLane="3" arrivalLane="4" departSpeed="13.222222222222223" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="379" depart="8.6" departLane="2" arrivalLane="2" departSpeed="10.38888888888889" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="443" depart="9.2" departLane="4" arrivalLane="4" departSpeed="12.277777777777779" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="375" depart="9.6" departLane="0" arrivalLane="0" departSpeed="4.694444444444445" departPos="0.0" type="Car">
+        <route edges="23183808#2 207979566#1" />
+    </vehicle>
+    <vehicle id="473" depart="10.0" departLane="3" arrivalLane="4" departSpeed="15.472222222222223" departPos="0.0" type="Motorcycle">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="367" depart="10.6" departLane="1" arrivalLane="1" departSpeed="6.416666666666667" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="439" depart="10.6" departLane="2" arrivalLane="3" departSpeed="9.833333333333334" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="448" depart="10.6" departLane="4" arrivalLane="4" departSpeed="11.944444444444445" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="480" depart="11.2" departLane="1" arrivalLane="2" departSpeed="10.25" departPos="0.0" type="Motorcycle">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="450" depart="12.2" departLane="3" arrivalLane="4" departSpeed="12.222222222222223" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="431" depart="13.2" departLane="1" arrivalLane="2" departSpeed="7.305555555555556" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="459" depart="13.6" departLane="4" arrivalLane="4" departSpeed="9.88888888888889" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="463" depart="14.0" departLane="3" arrivalLane="3" departSpeed="10.777777777777777" departPos="0.0" type="Taxi">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="527" depart="14.4" departLane="2" arrivalLane="2" departSpeed="17.166666666666668" departPos="0.0" type="Motorcycle">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="440" depart="14.6" departLane="0" arrivalLane="0" departSpeed="8.472222222222223" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979566#1" />
+    </vehicle>
+    <vehicle id="501" depart="15.0" departLane="3" arrivalLane="3" departSpeed="11.25" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="534" depart="15.2" departLane="2" arrivalLane="2" departSpeed="16.02777777777778" departPos="0.0" type="Motorcycle">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="488" depart="16.0" departLane="0" arrivalLane="0" departSpeed="8.333333333333334" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979566#1" />
+    </vehicle>
+    <vehicle id="508" depart="16.0" departLane="4" arrivalLane="4" departSpeed="13.0" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="471" depart="16.6" departLane="2" arrivalLane="2" departSpeed="10.305555555555557" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="487" depart="17.8" departLane="0" arrivalLane="0" departSpeed="7.861111111111112" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979566#1" />
+    </vehicle>
+    <vehicle id="510" depart="18.0" departLane="4" arrivalLane="4" departSpeed="12.000000000000002" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="522" depart="18.4" departLane="3" arrivalLane="3" departSpeed="15.166666666666668" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="542" depart="19.6" departLane="3" arrivalLane="3" departSpeed="14.166666666666668" departPos="0.0" type="Motorcycle">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="496" depart="19.8" departLane="2" arrivalLane="2" departSpeed="9.611111111111112" departPos="0.0" type="Medium">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="438" depart="20.0" departLane="1" arrivalLane="1" departSpeed="4.805555555555556" departPos="0.0" type="Medium">
+        <route edges="23183808#2 207979566#1" />
+    </vehicle>
+    <vehicle id="553" depart="20.4" departLane="4" arrivalLane="4" departSpeed="14.638888888888891" departPos="0.0" type="Motorcycle">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="474" depart="20.6" departLane="1" arrivalLane="1" departSpeed="8.833333333333334" departPos="0.0" type="Bus">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="538" depart="21.6" departLane="4" arrivalLane="4" departSpeed="13.972222222222221" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="517" depart="22.2" departLane="2" arrivalLane="3" departSpeed="11.38888888888889" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="560" depart="22.4" departLane="3" arrivalLane="3" departSpeed="14.472222222222223" departPos="0.0" type="Motorcycle">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="441" depart="22.8" departLane="1" arrivalLane="0" departSpeed="3.9444444444444446" departPos="0.0" type="Taxi">
+        <route edges="23183808#2 207979566#1" />
+    </vehicle>
+    <vehicle id="525" depart="23.2" departLane="2" arrivalLane="3" departSpeed="12.75" departPos="0.0" type="Taxi">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="493" depart="23.6" departLane="1" arrivalLane="1" departSpeed="10.083333333333332" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="486" depart="23.8" departLane="0" arrivalLane="1" departSpeed="7.138888888888889" departPos="0.0" type="Motorcycle">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="502" depart="25.6" departLane="2" arrivalLane="3" departSpeed="11.972222222222223" departPos="0.0" type="Motorcycle">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="492" depart="25.8" departLane="4" arrivalLane="4" departSpeed="13.666666666666668" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="513" depart="25.8" departLane="0" arrivalLane="0" departSpeed="7.916666666666667" departPos="0.0" type="Taxi">
+        <route edges="23182965#0.13 207979566#1" />
+    </vehicle>
+    <vehicle id="503" depart="27.8" departLane="2" arrivalLane="3" departSpeed="13.222222222222223" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="559" depart="28.6" departLane="3" arrivalLane="3" departSpeed="10.944444444444445" departPos="0.0" type="Heavy">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="437" depart="29.0" departLane="0" arrivalLane="0" departSpeed="3.111111111111111" departPos="0.0" type="Medium">
+        <route edges="23183808#2 207979566#1" />
+    </vehicle>
+    <vehicle id="573" depart="30.2" departLane="3" arrivalLane="3" departSpeed="11.222222222222223" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="582" depart="30.6" departLane="4" arrivalLane="4" departSpeed="14.722222222222223" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="556" depart="31.0" departLane="1" arrivalLane="1" departSpeed="7.694444444444445" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="588" depart="31.8" departLane="4" arrivalLane="4" departSpeed="14.666666666666666" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="447" depart="31.8" departLane="1" arrivalLane="0" departSpeed="2.138888888888889" departPos="0.0" type="Taxi">
+        <route edges="23183808#2 207979566#1" />
+    </vehicle>
+    <vehicle id="568" depart="32.2" departLane="2" arrivalLane="2" departSpeed="11.694444444444445" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="520" depart="33.4" departLane="2" arrivalLane="2" departSpeed="11.75" departPos="0.0" type="Taxi">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="589" depart="33.4" departLane="4" arrivalLane="4" departSpeed="14.694444444444445" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="547" depart="34.8" departLane="1" arrivalLane="2" departSpeed="10.194444444444446" departPos="0.0" type="Motorcycle">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="554" depart="35.4" departLane="3" arrivalLane="3" departSpeed="15.194444444444446" departPos="0.0" type="Motorcycle">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="601" depart="35.8" departLane="1" arrivalLane="2" departSpeed="10.11111111111111" departPos="0.0" type="Taxi">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="580" depart="36.2" departLane="2" arrivalLane="2" departSpeed="8.833333333333334" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="597" depart="36.6" departLane="3" arrivalLane="3" departSpeed="11.944444444444445" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="549" depart="36.8" departLane="1" arrivalLane="2" departSpeed="11.305555555555557" departPos="0.0" type="Motorcycle">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="593" depart="37.6" departLane="2" arrivalLane="3" departSpeed="8.86111111111111" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="607" depart="37.6" departLane="4" arrivalLane="4" departSpeed="14.88888888888889" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="600" depart="38.2" departLane="3" arrivalLane="3" departSpeed="11.694444444444445" departPos="0.0" type="Motorcycle">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="625" depart="38.2" departLane="4" arrivalLane="4" departSpeed="15.555555555555557" departPos="0.0" type="Motorcycle">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="530" depart="38.8" departLane="2" arrivalLane="3" departSpeed="9.13888888888889" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="605" depart="39.4" departLane="1" arrivalLane="1" departSpeed="11.88888888888889" departPos="0.0" type="Motorcycle">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="633" depart="39.8" departLane="3" arrivalLane="3" departSpeed="14.666666666666666" departPos="0.0" type="Motorcycle">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="612" depart="40.0" departLane="3" arrivalLane="3" departSpeed="11.305555555555557" departPos="0.0" type="Motorcycle">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="458" depart="40.0" departLane="1" arrivalLane="0" departSpeed="1.6944444444444444" departPos="0.0" type="Car">
+        <route edges="23183808#2 207979566#1" />
+    </vehicle>
+    <vehicle id="609" depart="40.4" departLane="2" arrivalLane="2" departSpeed="8.5" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="620" depart="41.2" departLane="3" arrivalLane="3" departSpeed="11.666666666666668" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="621" depart="41.6" departLane="2" arrivalLane="1" departSpeed="9.055555555555557" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="39" depart="41.8" departLane="0" arrivalLane="0" departSpeed="2.5833333333333335" departPos="0.0" type="Medium">
+        <route edges="23183808#2 207979569#0" />
+    </vehicle>
+    <vehicle id="618" depart="42.8" departLane="4" arrivalLane="4" departSpeed="14.972222222222223" departPos="0.0" type="Motorcycle">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="624" depart="42.8" departLane="1" arrivalLane="2" departSpeed="9.305555555555555" departPos="0.0" type="Motorcycle">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="626" depart="43.0" departLane="3" arrivalLane="3" departSpeed="11.583333333333334" departPos="0.0" type="Taxi">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="598" depart="43.4" departLane="1" arrivalLane="3" departSpeed="12.416666666666668" departPos="0.0" type="Motorcycle">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="637" depart="43.8" departLane="2" arrivalLane="3" departSpeed="10.63888888888889" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="634" depart="44.8" departLane="3" arrivalLane="3" departSpeed="10.583333333333334" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="561" depart="45.4" departLane="1" arrivalLane="1" departSpeed="11.666666666666668" departPos="0.0" type="Motorcycle">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="640" depart="46.0" departLane="3" arrivalLane="4" departSpeed="15.25" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="627" depart="46.2" departLane="0" arrivalLane="0" departSpeed="6.083333333333333" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979566#1" />
+    </vehicle>
+    <vehicle id="644" depart="46.8" departLane="2" arrivalLane="2" departSpeed="11.472222222222221" departPos="0.0" type="Motorcycle">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="512" depart="47.6" departLane="0" arrivalLane="0" departSpeed="3.388888888888889" departPos="0.0" type="Car">
+        <route edges="23183808#2 207979566#1" />
+    </vehicle>
+    <vehicle id="543" depart="48.2" departLane="2" arrivalLane="2" departSpeed="11.944444444444445" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="642" depart="48.4" departLane="3" arrivalLane="3" departSpeed="12.166666666666666" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="646" depart="50.2" departLane="0" arrivalLane="0" departSpeed="7.416666666666667" departPos="0.0" type="Car">
+        <route edges="23182965#0.13" />
+    </vehicle>
+    <vehicle id="648" depart="50.2" departLane="4" arrivalLane="4" departSpeed="14.361111111111112" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="611" depart="50.8" departLane="2" arrivalLane="3" departSpeed="13.194444444444445" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="652" depart="51.0" departLane="4" arrivalLane="4" departSpeed="13.75" departPos="0.0" type="Car">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="664" depart="52.8" departLane="4" arrivalLane="4" departSpeed="9.416666666666666" departPos="0.0" type="Taxi">
+        <route edges="23182965#0.13" />
+    </vehicle>
+    <vehicle id="563" depart="53.0" departLane="1" arrivalLane="1" departSpeed="3.7222222222222223" departPos="0.0" type="Motorcycle">
+        <route edges="23183808#2 207979566#1" />
+    </vehicle>
+    <vehicle id="662" depart="53.4" departLane="2" arrivalLane="2" departSpeed="7.916666666666667" departPos="0.0" type="Car">
+        <route edges="23182965#0.13" />
+    </vehicle>
+    <vehicle id="682" depart="54.8" departLane="0" arrivalLane="0" departSpeed="4.638888888888889" departPos="0.0" type="Motorcycle">
+        <route edges="23183808#2 207979569#0" />
+    </vehicle>
+    <vehicle id="674" depart="55.0" departLane="3" arrivalLane="3" departSpeed="8.916666666666668" departPos="0.0" type="Car">
+        <route edges="23182965#0.13" />
+    </vehicle>
+    <vehicle id="675" depart="56.8" departLane="4" arrivalLane="4" departSpeed="6.333333333333334" departPos="0.0" type="Car">
+        <route edges="23182965#0.13" />
+    </vehicle>
+    <vehicle id="676" depart="57.2" departLane="0" arrivalLane="0" departSpeed="5.527777777777778" departPos="0.0" type="Car">
+        <route edges="23182965#0.13" />
+    </vehicle>
+    <vehicle id="678" depart="58.2" departLane="2" arrivalLane="2" departSpeed="8.944444444444446" departPos="0.0" type="Car">
+        <route edges="23182965#0.13" />
+    </vehicle>
+    <vehicle id="630" depart="58.4" departLane="3" arrivalLane="3" departSpeed="5.0" departPos="0.0" type="Car">
+        <route edges="23182965#0.13" />
+    </vehicle>
+    <vehicle id="688" depart="59.8" departLane="1" arrivalLane="0" departSpeed="3.7222222222222223" departPos="0.0" type="Car">
+        <route edges="23182965#0.13" />
+    </vehicle>
+    <vehicle id="680" depart="61.2" departLane="2" arrivalLane="2" departSpeed="5.194444444444445" departPos="0.0" type="Car">
+        <route edges="23182965#0.13" />
+    </vehicle>
+    <vehicle id="551" depart="62.4" departLane="0" arrivalLane="0" departSpeed="2.1666666666666665" departPos="0.0" type="Heavy">
+        <route edges="23183808#2 207979569#0" />
+    </vehicle>
+    <vehicle id="79" depart="63.0" departLane="1" arrivalLane="1" departSpeed="3.1944444444444446" departPos="0.0" type="Taxi">
+        <route edges="23182965#0.13" />
+    </vehicle>
+    <vehicle id="687" depart="63.0" departLane="2" arrivalLane="2" departSpeed="3.361111111111111" departPos="0.0" type="Car">
+        <route edges="23182965#0.13" />
+    </vehicle>
+    <vehicle id="677" depart="68.0" departLane="4" arrivalLane="4" departSpeed="5.277777777777778" departPos="0.0" type="Motorcycle">
+        <route edges="23182965#0.13 207979569#0" />
+    </vehicle>
+    <vehicle id="472" depart="68.0" departLane="1" arrivalLane="1" departSpeed="4.194444444444445" departPos="0.0" type="Car">
+        <route edges="23183808#2 207979566#1" />
+    </vehicle>
+    <vehicle id="466" depart="70.6" departLane="1" arrivalLane="0" departSpeed="4.750000000000001" departPos="0.0" type="Car">
+        <route edges="23183808#2 207979566#1" />
+    </vehicle>
+    <vehicle id="690" depart="70.8" departLane="4" arrivalLane="4" departSpeed="4.194444444444445" departPos="0.0" type="Car">
+        <route edges="23182965#0.13" />
+    </vehicle>
+    <vehicle id="590" depart="71.6" departLane="0" arrivalLane="0" departSpeed="4.722222222222222" departPos="0.0" type="Medium">
+        <route edges="23183808#2 207979566#1" />
+    </vehicle>
+    <vehicle id="518" depart="74.0" departLane="1" arrivalLane="1" departSpeed="7.5" departPos="0.0" type="Medium">
+        <route edges="23183808#2 207979566#1" />
+    </vehicle>
+    <vehicle id="732" depart="75.2" departLane="1" arrivalLane="0" departSpeed="8.222222222222223" departPos="0.0" type="Motorcycle">
+        <route edges="23183808#2 207979569#0" />
+    </vehicle>
+    <vehicle id="704" depart="75.4" departLane="0" arrivalLane="0" departSpeed="5.083333333333334" departPos="0.0" type="Heavy">
+        <route edges="23183808#2" />
+    </vehicle>
+    <vehicle id="650" depart="77.2" departLane="1" arrivalLane="1" departSpeed="5.861111111111112" departPos="0.0" type="Taxi">
+        <route edges="23183808#2" />
+    </vehicle>
+    <vehicle id="592" depart="77.8" departLane="0" arrivalLane="0" departSpeed="5.833333333333334" departPos="0.0" type="Motorcycle">
+        <route edges="23183808#2" />
+    </vehicle>
+    <vehicle id="685" depart="78.8" departLane="1" arrivalLane="1" departSpeed="7.333333333333333" departPos="0.0" type="Motorcycle">
+        <route edges="23183808#2" />
+    </vehicle>
+    <vehicle id="567" depart="80.6" departLane="1" arrivalLane="1" departSpeed="7.5" departPos="0.0" type="Car">
+        <route edges="23183808#2" />
+    </vehicle>
+    <vehicle id="54" depart="83.2" departLane="0" arrivalLane="0" departSpeed="4.944444444444445" departPos="0.0" type="Car">
+        <route edges="23183808#2" />
+    </vehicle>
+    <vehicle id="683" depart="88.0" departLane="0" arrivalLane="0" departSpeed="6.750000000000001" departPos="0.0" type="Motorcycle">
+        <route edges="23182965#0.13" />
+    </vehicle>
+    <vehicle id="766" depart="88.0" departLane="1" arrivalLane="1" departSpeed="9.944444444444445" departPos="0.0" type="Motorcycle">
+        <route edges="23182965#0.13" />
+    </vehicle>
+</routes>

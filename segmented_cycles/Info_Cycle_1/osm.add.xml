@@ -1,0 +1,17 @@
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- Detectors -->
+    <instantInductionLoop id="d1_0" lane="23182965#0.13_4" pos="10.47" file="info.xml"/>
+    <instantInductionLoop id="d1_1" lane="23182965#0.13_3" pos="10.28" file="info.xml"/>
+    <instantInductionLoop id="d1_2" lane="23182965#0.13_2" pos="10.13" file="info.xml"/>
+    <instantInductionLoop id="d1_3" lane="23182965#0.13_1" pos="10.00" file="info.xml"/>
+    <instantInductionLoop id="d1_4" lane="23182965#0.13_0" pos="9.71" file="info.xml"/>
+    <instantInductionLoop id="d2_0" lane="23183808#2_1" pos="47.75" file="info.xml"/>
+    <instantInductionLoop id="d2_1" lane="23183808#2_0" pos="47.59" file="info.xml"/>
+    <instantInductionLoop id="d3_0" lane="207979569#0_4" pos="33.04" file="info.xml"/>
+    <instantInductionLoop id="d3_1" lane="207979569#0_3" pos="33.10" file="info.xml"/>
+    <instantInductionLoop id="d3_2" lane="207979569#0_2" pos="33.04" file="info.xml"/>
+    <instantInductionLoop id="d3_3" lane="207979569#0_1" pos="33.03" file="info.xml"/>
+    <instantInductionLoop id="d3_4" lane="207979569#0_0" pos="33.05" file="info.xml"/>
+    <instantInductionLoop id="d4_0" lane="207979566#1_1" pos="57.02" file="info.xml"/>
+    <instantInductionLoop id="d4_1" lane="207979566#1_0" pos="56.99" file="info.xml"/>
+</additional>
