@@ -41,14 +41,14 @@ cycle_dirs = sorted(glob.glob("Info_Cycle_*"))
 if not cycle_dirs:
     raise RuntimeError("No cycle directories found matching Info_Cycle_*")
 
-# load phase boundaries (same schema as your optimizer: Start, Break, Continuation, Stop)
+# load phase boundaries (same schema as optimizer: Start, Break, Continuation, Stop)
 phase_df = pd.read_csv("Data/TrafficLightCycles.csv", delimiter=";")
 
 # -----------------------------
-# Parameter configuration (your SA list)
+# Parameter configuration (SA list)
 # -----------------------------
 param_config = {
-    # Per-vehicle-ish (if you don't provide Car_speedFactor, etc., it will apply to all vTypes)
+    # Per-vehicle
     "speedFactor": {"default": 1.0, "range": [0.5, 2.0]},
     "speedDev": {"default": 0.1, "range": [0.1, 0.5]},
     "minGap": {"default": 2.5, "range": [1.0, 5.0]},
@@ -97,7 +97,6 @@ param_config = {
     "impatience": {"default": 0.0, "range": [0.0, 1.0]},
 }
 
-# If your vType ids differ, adjust here.
 # This list is used only for per-vehicle overrides like Car_speedFactor etc.
 vehicle_type_ids = ["Car", "Bus", "MediumVehicle", "HeavyVehicle", "Motorcycle", "Taxi", "Medium", "Heavy"]
 
@@ -142,7 +141,7 @@ def get_phase_bounds_for_cycle(base_name: str):
 
 
 # -----------------------------
-# Run one cycle (same robustness as optimizer)
+# Run one cycle
 # -----------------------------
 def run_cycle(cycle_dir: str):
     sim_csv = os.path.join(cycle_dir, "simulation_info.csv")
@@ -162,7 +161,7 @@ def run_cycle(cycle_dir: str):
 
 
 # -----------------------------
-# Objective J (counts-based) — matches your optimizer’s logic
+# Objective J (counts-based)
 # -----------------------------
 def compute_objective_counts(good_cycles: list[str]) -> float:
     # pooled exit_time samples by [phase][direction]
@@ -284,10 +283,6 @@ def main():
         #    If each cycle has its own osm.type.xml, you should copy it into each cycle dir too.
         update_osm_type_xml(opts, xml_file="osm.type.xml")
 
-        # Optional: if cycles each have their own osm.type.xml, uncomment:
-        # for cyc in cycle_dirs:
-        #     update_osm_type_xml(opts, xml_file=os.path.join(cyc, "osm.type.xml"))
-
         # 2) Run all cycles (parallel)
         with ProcessPoolExecutor() as exe:
             run_results = list(exe.map(run_cycle, cycle_dirs))
@@ -311,3 +306,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
