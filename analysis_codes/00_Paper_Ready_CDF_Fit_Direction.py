@@ -18,7 +18,7 @@ phase_df = pd.read_csv("Data/TrafficLightCycles.csv", delimiter=';')
 PHASE_FALLBACK = [(0.0, 60.0), (60.0, 90.0)]  # same as optimization
 DEFAULT_LENS = [60.0, 30.0]                   # same as optimization
 
-# Publication-friendly styling (TRC-ish)
+# Publication-friendly styling
 plt.rcParams.update({
     "font.family": "serif",
     "font.size": 12,
@@ -33,7 +33,6 @@ plt.rcParams.update({
     "lines.linewidth": 2.0,
 })
 
-# Colorblind-safe palette (Okabe–Ito-like)
 COLORS = {"Observed": "#00C489", "Simulated": "#E0370D"}
 
 PHASE_NAMES = {0: r"$ 1 $", 1: r"$ 2 $"}
@@ -173,7 +172,7 @@ for p in (0, 1):
         ax.plot(grid, Cr, label="Observed",  color=COLORS["Observed"])
         ax.plot(grid, Cs, label="Simulated", color=COLORS["Simulated"])
 
-        C = len(cycle_dirs)  # or better: count only cycles that actually contributed to this (p,d) pool
+        C = len(cycle_dirs)  
         Dveh = max_dev_veh(Cr, Cs)
         Dveh_per_cycle = Dveh / max(C, 1)
 
@@ -203,6 +202,7 @@ fig.savefig("cumulative_exit_counts_KS_L1.png", bbox_inches="tight")
 plt.show()
 
 print("Saved: cumulative_exit_counts_KS_L1.pdf/png")
+
 
 
 
