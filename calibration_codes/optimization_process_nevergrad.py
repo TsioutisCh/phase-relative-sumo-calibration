@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
 """
-optimization_process.py
-
 Nevergrad (NGOpt)-driven calibration using only per-phase, per-direction vehicle counts.
 Objective = weighted L1 distance between cumulative count curves (real vs. simulated)
-for the four buckets: (phase1,d3), (phase1,d4), (phase2,d3), (phase2,d4).
+for the four sets: (phase1,d3), (phase1,d4), (phase2,d3), (phase2,d4).
 """
 
 import os
@@ -252,3 +250,4 @@ if __name__ == "__main__":
     update_osm_type_xml(best_opts)
 
     print("\nDone! Best J =", fbest)
+
