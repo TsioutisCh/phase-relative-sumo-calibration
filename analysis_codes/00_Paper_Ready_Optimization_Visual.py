@@ -6,7 +6,6 @@ from matplotlib.ticker import MaxNLocator
 def apply_best_and_plot(history_csv='optimization_history_nevergrad_20_30_25_25.csv', xml_file='osm.type.xml',
                         objective_threshold=5000, out_prefix='opt_history'):
     """
-    Transportation Research Part C-style plotting + XML update.
 
     - Reads optimization history CSV (must include 'objective')
     - Plots RAW objective values vs iteration (no rolling average), for objectives < threshold
@@ -32,7 +31,7 @@ def apply_best_and_plot(history_csv='optimization_history_nevergrad_20_30_25_25.
     df_plot['iteration'] = df_plot.index + 1
 
     # -----------------------
-    # Plot styling (journal-ish)
+    # Plot styling 
     # -----------------------
     plt.rcParams.update({
         "font.family": "serif",
@@ -102,3 +101,4 @@ def apply_best_and_plot(history_csv='optimization_history_nevergrad_20_30_25_25.
 # Example usage:
 if __name__ == '__main__':
     apply_best_and_plot()
+
