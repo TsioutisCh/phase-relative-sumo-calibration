@@ -7,8 +7,6 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import Patch
 
 # -------------------------
-# Publication-friendly styling (TRC-ish)
-# -------------------------
 plt.rcParams.update({
     "font.family": "serif",
     "font.size": 12,
@@ -23,8 +21,6 @@ plt.rcParams.update({
     "lines.linewidth": 2.0,
 })
 
-# Colorblind-safe palette (Okabe–Ito-like)
-# We'll reuse these colors for Default vs Calibrated.
 COLORS = {"Observed": "#0A9E72", "Simulated": "#D13812"}
 
 # -------------------------
@@ -174,7 +170,7 @@ for cycle in cycle_dirs:
 print_bucket_stats(results_default, results_calib, BUCKETS, label="MAPE (%)")
 
 # -------------------------
-# Boxplot Visualization (side-by-side)
+# Boxplot Visualization
 # -------------------------
 fig, ax = plt.subplots(figsize=(7.8, 3.6))  # compact TRC-ish aspect
 
@@ -202,8 +198,7 @@ box = ax.boxplot(
     flierprops=dict(marker="o", markersize=3, markerfacecolor="none", markeredgewidth=0.8)
 )
 
-# Map palette to your two series:
-# Default = "Simulated" orange, Calibrated = "Observed" teal (per your rule)
+# Map palette 
 color_default = COLORS["Simulated"]  # orange
 color_calib   = COLORS["Observed"]   # teal
 
@@ -238,3 +233,4 @@ ax.legend(handles=legend_elements, loc="upper left", frameon=False)
 plt.tight_layout()
 plt.savefig("box_plot_comparison_mape.pdf", bbox_inches="tight")
 plt.show()
+
