@@ -33,4 +33,3 @@ The proposed calibration framework:
 
 ---
 
-## 📂 Repository Structure
