@@ -122,7 +122,7 @@ The corresponding SUMO network reproduces the intersection geometry, lane config
 ## Workflow
 
 <p align="center">
-  <img src="images/pipeline.pdf" alt="Calibration workflow" width="850">
+  <img src="images/pipeline.png" alt="Calibration workflow" width="850">
 </p>
 
 The full workflow consists of two main parts.
@@ -203,11 +203,11 @@ Main findings:
 * Default SUMO parameters do not reproduce phase-level discharge behavior reliably, even when simulations are initialized from UAV-derived vehicle states.
 
 <p align="center">
-  <img src="images/cumulative_exit_counts_KS_L1.pdf" alt="Observed and simulated cumulative exit-count curves" width="850">
+  <img src="images/cumulative_exit_counts_KS_L1.png" alt="Observed and simulated cumulative exit-count curves" width="850">
 </p>
 
 <p align="center">
-  <img src="images/box_plot_comparison_mape.pdf" alt="Cycle-level MAPE comparison" width="700">
+  <img src="images/box_plot_comparison_mape.png" alt="Cycle-level MAPE comparison" width="700">
 </p>
 
 ---
