@@ -25,7 +25,7 @@ Instead of relying solely on aggregated traffic counts, the methodology evaluate
 The proposed calibration framework:
 
 - Segments UAV trajectory data into signal cycles  
-- Constructs **phase-direction buckets**  
+- Constructs **phase-direction sets**  
 - Computes **phase-relative exit times**  
 - Builds cumulative exit count curves  
 - Evaluates discrepancies using a normalized percentage-based metric (nABC)  
